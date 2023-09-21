@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Contact Us</title>
+</head>
+<body>
+    <h1 class="contacth1">Contact Us</h1>
+    <div class="contact-form">
+        
+      <form action="contact.php" method="post">
+        <fieldset>
+            <legend>Details</legend>
+            <label>Name</label>
+          <input type="text" placeholder="Your Name" id="name" name="name" required>
+          <br>
+          <br>
+          <label>Email</label>
+          <input type="email" placeholder="Your Email" id="email" name="email" required>
+          <br>
+          <br>
+          <label>Feedback</label>
+          <textarea placeholder="Your Message" required id="feedback" name="feedback"></textarea>
+          <br>
+          <br>
+          <button type="submit" style="background-color: #210062;">Submit </button>
+        </fieldset>
+        </form>
+      </div>
+</body>
+</html>
